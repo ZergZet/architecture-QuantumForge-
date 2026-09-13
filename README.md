@@ -1,6 +1,13 @@
-Скрипты запускаются на debian подобных ОС, скачивают и устанавливают необходимые модели  самостоятельно (работы проводились на AstraLinux 1.8, ОП 32Гб, CPU 16 ядер).
 
 # RAG-бот на базе Ollama, Qdrant, embeddinggemma, Safety-классификаторов Hugging Face
+
+Скрипты запускаются на debian подобных ОС, скачивают и устанавливают необходимые модели  самостоятельно (работы проводились на AstraLinux 1.8, ОП 32Гб, CPU 16 ядер).
+```
+Автоустановка при отсутствии:
+  - python3-venv / python3-pip / python3.X-venv
+  - Docker (docker.io) и Docker Compose V2 — если Qdrant недоступен
+  - Ollama — если EMBEDDING_PROVIDER=ollama или используется --use-ollama
+```
 
 Локальная инфраструктура для системы вопросно-ответных ответов по документам.
 Скачивается и используются по умолчанию:
@@ -88,9 +95,4 @@ HF safety-классификаторы:
   $0 --use-ollama --skip-docker -i
   $0 --use-ollama --safe-prompt --strict-context --min-score 0.55 \\
      --top-k 5 --cot --safety-in --safety-out -oris -nc -i
-
-Автоустановка при отсутствии:
-  - python3-venv / python3-pip / python3.X-venv
-  - Docker (docker.io) и Docker Compose V2 — если Qdrant недоступен
-  - Ollama — если EMBEDDING_PROVIDER=ollama или используется --use-ollama
 ```
