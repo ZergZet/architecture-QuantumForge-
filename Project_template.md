@@ -776,9 +776,11 @@ WARN[0000] Found orphan containers (ollama) for this project. If you removed or 
 
 <details> <summary> Снимки Qdrant</summary>
 
-![qdrant Collection](images\image-4.png)
-![qdrant points](images\image-2.png)
-![qdrant graph](images\image-3.png)
+![qdrant Collection](https://github.com/ZergZet/architecture-QuantumForge-/blob/RAG/images/image-4.png)
+![qdrant points](https://github.com/ZergZet/architecture-QuantumForge-/blob/RAG/images/image-2.png)
+![qdrant graph](https://github.com/ZergZet/architecture-QuantumForge-/blob/RAG/images/image-3.png)
+
+
 
 </details>
 
