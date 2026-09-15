@@ -1,0 +1,6 @@
+sentence-transformers>=2.2.2
+qdrant-client>=1.9.1
+langchain-ollama>=0.2.0
+langchain-core>=0.3.0
+requests>=2.31.0
+pypdf>=4.0.0
